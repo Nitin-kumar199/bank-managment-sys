@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Bank Account Management</title>
+  </head>
+  <body>
+    <h1>Bank Account Management</h1>
+    <div class="account-details">
+      <label for="accountHolderName">Account Holder Name:</label>
+      <input type="text" id="accountHolderName" />
+      <label for="accountType">Account Type:</label>
+      <input type="text" id="accountType" />
+    </div>
+    <div class="transaction">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" />
+      <button id="depositBtn">Deposit</button>
+      <button id="withdrawBtn">Withdraw</button>
+      <button id="checkBalanceBtn">Check Balance</button>
+    </div>
+    <div class="balance">
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
